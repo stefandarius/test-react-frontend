@@ -13,3 +13,4 @@ frontend:
             - npm install --silent
             - npm run dev --silent
     subdomain: github-integration-test
+otherStuff: tralala
