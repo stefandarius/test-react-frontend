@@ -1,16 +1,16 @@
-name: test-github
-region: us-east-1
-yamlVersion: 2
 frontend:
     path: .
     publish: dist
     scripts:
-        deploy:
-            - npm install
         build:
             - npm run build
+        deploy:
+            - npm install
         start:
             - npm install --silent
             - npm run dev --silent
-    subdomain: github-integration-test
+    subdomain: test-github-yaml
+name: test-github-yaml
 otherStuff: tralala
+region: us-east-1
+yamlVersion: 2
